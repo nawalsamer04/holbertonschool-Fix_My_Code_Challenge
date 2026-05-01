@@ -1,3 +1,3 @@
 #!/usr/bin/env ruby
 
-puts ARGV.sort_by { |x| x.to_i }
+puts ARGV.map(&:to_i).sort.join(" ")
